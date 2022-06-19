@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Md Sajjad Hossin"
+        android:textSize="35dp"
+        android:background="#1F37BC"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/texAnim"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Scale"
+                android:id="@+id/btnScale"
+
+
+                />
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rotate"
+                android:id="@+id/btnRotate"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            >
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Translate"
+                android:id="@+id/btnTranslate"
+
+                />
+            <Button
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Alpha"
+                android:id="@+id/btnAlpha"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
